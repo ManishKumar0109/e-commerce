@@ -40,10 +40,10 @@ app.use((err, req, res, next) => {
     },
   })
 })
-
+const port = process.env.PORT || 4000
 connection()
   .then(() => {
-    app.listen(3000, () => {
+    app.listen(port, () => {
       console.log("🚀 Server running at http://localhost:3000")
     })
   })
