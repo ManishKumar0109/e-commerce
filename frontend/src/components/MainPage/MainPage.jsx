@@ -8,7 +8,7 @@ import { useDispatch } from "react-redux"
 
 async function setUserProfile(dispatch) {
   try {
-    const raw = await fetch("http://localhost:3000/user/getProfile", {
+    const raw = await fetch(`${import.meta.env.VITE_API_URL}/user/getProfile`, {
       method: "GET",
       credentials: "include",
     })
@@ -32,12 +32,15 @@ const MainPage = () => {
         try {
           const firebasetoken = await firebaseUser.getIdToken()
 
-          const res = await fetch("http://localhost:3000/user/verifytoken", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ firebasetoken }),
-            credentials: "include",
-          })
+          const res = await fetch(
+            `${import.meta.env.VITE_API_URL}/user/verifytoken`,
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ firebasetoken }),
+              credentials: "include",
+            }
+          )
 
           if (res.ok) {
             await setUserProfile(dispatch)

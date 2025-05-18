@@ -3,12 +3,15 @@ import { useNavigate } from "react-router-dom"
 import { signIn } from "../../firebase"
 
 const fetchcall = async (firebasetoken, navigate) => {
-  const response = await fetch("http://localhost:3000/user/verifytoken", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ firebasetoken }),
-    credentials: "include",
-  })
+  const response = await fetch(
+    `${import.meta.env.VITE_API_URL}/user/verifytoken`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ firebasetoken }),
+      credentials: "include",
+    }
+  )
   const data = await response.json()
   if (response.ok) {
     navigate("/")

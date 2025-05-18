@@ -31,10 +31,13 @@ const dummyReviews = [
 
 async function getReviews(setReviews, productId) {
   try {
-    const raw = await fetch(`http://localhost:3000/reviews/${productId}`, {
-      method: "GET",
-      credentials: "include",
-    })
+    const raw = await fetch(
+      `${import.meta.env.VITE_API_URL}/reviews/${productId}`,
+      {
+        method: "GET",
+        credentials: "include",
+      }
+    )
     const data = await raw.json()(data)
     if (data?.result) {
       setReviews(data.result)(data.result)

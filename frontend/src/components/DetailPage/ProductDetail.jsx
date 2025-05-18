@@ -16,7 +16,7 @@ export default function ProductDetail() {
     const fetchProduct = async () => {
       try {
         const res = await fetch(
-          `http://localhost:3000/productdetail?id=${id}`,
+          `${import.meta.env.VITE_API_URL}/productdetail?id=${id}`,
           {
             credentials: "include",
           }
