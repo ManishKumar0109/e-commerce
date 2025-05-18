@@ -28,9 +28,9 @@ router.post("/verifytoken", async (req, res, next) => {
     console.log(jwttoken)
     res.cookie("token", jwttoken, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: "lax",
-      maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+      secure: true, // Must be true for SameSite=None to work
+      sameSite: "none", // Allow cookie across different domains
+      maxAge: 7 * 24 * 60 * 60 * 1000,
     })
 
     res.status(200).json({ result: "user logged in" })
@@ -122,7 +122,7 @@ router.put("/updateProfile", auth, async (req, res) => {
   }
 })
 router.post("/logout", auth, (req, res) => {
-  res.cookie("jwt", "", {
+  res.cookie("token", "", {
     maxAge: 0,
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
