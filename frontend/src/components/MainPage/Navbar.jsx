@@ -164,7 +164,7 @@ const SubNavbar = ({ setNavbar }) => {
 
 const Navbar2 = () => {
   const [Navbar, setNavbar] = useState(false)
-  const navigate = useNavigate()(Navbar)
+  const navigate = useNavigate()
   return (
     <>
       <div className=" h-[20%] relative z-20 w-full flex flex-col items-center  bg-gradient-to-b from-pink-300 to-white text-gray-700">

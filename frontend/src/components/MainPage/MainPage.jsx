@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react"
 import { Navbar1, Navbar2 } from "./Navbar"
-import { Outlet, useNavigate, useLocation } from "react-router-dom" // ✅ added useLocation to prevent redirect loop
+import { Outlet, useNavigate } from "react-router-dom"
 import { onAuthStateChanged } from "firebase/auth"
 import { auth } from "../../firebase"
 import { setUser } from "../../redux/userSlice"
 import { useDispatch } from "react-redux"
 
-// ✅ Removed console.error
 async function setUserProfile(dispatch) {
   try {
     const raw = await fetch(`${import.meta.env.VITE_API_URL}/user/getProfile`, {
@@ -17,7 +16,7 @@ async function setUserProfile(dispatch) {
     const { firstName, lastName } = data
     dispatch(setUser(firstName.toUpperCase() + " " + lastName.toUpperCase()))
   } catch (error) {
-    // silent fail
+    console.error("Failed to fetch user:", error)
   }
 }
 
@@ -25,7 +24,6 @@ const MainPage = () => {
   const [ScreenSize, setScreenSize] = useState(window.innerWidth)
   const [loading, setLoading] = useState(true)
   const navigate = useNavigate()
-  const location = useLocation() // ✅
   const dispatch = useDispatch()
 
   useEffect(() => {
@@ -49,19 +47,20 @@ const MainPage = () => {
             setLoading(false)
           } else {
             await auth.signOut()
-            if (location.pathname !== "/auth") navigate("/auth") // ✅ prevent infinite redirect
+            navigate("/auth")
           }
         } catch (err) {
+          console.error("Error verifying user:", err)
           await auth.signOut()
-          if (location.pathname !== "/auth") navigate("/auth") // ✅ prevent infinite redirect
+          navigate("/auth")
         }
       } else {
-        if (location.pathname !== "/auth") navigate("/auth") // ✅ prevent infinite redirect
+        navigate("/auth")
       }
     })
 
     return () => unsubscribe()
-  }, [navigate, dispatch, location.pathname]) // ✅ added deps
+  }, [navigate])
 
   useEffect(() => {
     function handleSize() {
