@@ -78,7 +78,7 @@ export default function ProductDetail() {
   const showSizes = category !== "footwear" && category !== "accessories"
 
   return (
-    <div className="px-4 py-6 border-8 border-amber-600 h-full overflow-y-auto  flex flex-col">
+    <div className="px-4 py-6  h-full overflow-y-auto  flex flex-col">
       <div className="flex flex-col  lg:flex-row">
         <ImageCarousel
           images={images}
