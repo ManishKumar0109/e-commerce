@@ -81,7 +81,7 @@ export const saveCartToBackend = () => async (dispatch, getState) => {
   }))
 
   try {
-    const res = await fetch("http://localhost:3000/updatecart", {
+    const res = await fetch(`${import.meta.env.VITE_API_URL}/updatecart`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       credentials: "include", // send cookies if any
