@@ -13,7 +13,7 @@ const cookieParser = require("cookie-parser")
 app.use(express.json())
 app.use(cookieParser())
 const corsconfig = {
-  origin: "http://localhost:5173",
+  origin: "https://style-sprint.onrender.com",
   credentials: true,
 }
 
