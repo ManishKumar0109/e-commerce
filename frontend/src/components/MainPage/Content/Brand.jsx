@@ -22,7 +22,7 @@ const Brand = () => {
     getData()
   }, [])
 
-  if (brands.length <= 0) return null
+  if (brands.length) return null
 
   return (
     <div className="w-full lg:min-h-[60vh] lg:h-[30%] h-[70%] lg:px-0 px-4">

@@ -27,7 +27,7 @@ const Banner = () => {
     return () => clearInterval(intervalId)
   }, [])
 
-  if (banner.length === 0) return null // Optional loading state
+  if (banner.length) return null // Optional loading state
 
   return (
     <div className="w-full max-w-[1200px] mx-auto px-4">

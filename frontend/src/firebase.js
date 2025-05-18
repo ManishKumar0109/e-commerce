@@ -14,6 +14,7 @@ const app = initializeApp(firebaseConfig)
 const auth = getAuth(app)
 
 const signIn = async (emailId, password) => {
+  console.log(emailId)
   try {
     const userCredential = await signInWithEmailAndPassword(
       auth,
@@ -21,6 +22,7 @@ const signIn = async (emailId, password) => {
       password
     )
     const token = await userCredential.user.getIdToken()
+    console.log(token)
     return token
   } catch (err) {
     console.error("Sign-in error:", err.message)
