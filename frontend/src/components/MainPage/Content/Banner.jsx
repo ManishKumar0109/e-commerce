@@ -33,7 +33,7 @@ const Banner = () => {
     <div className="w-full max-w-[1200px] mx-auto px-4">
       <div className="bg-transparent rounded-2xl overflow-hidden flex justify-center items-center">
         <img
-          src={banner[Index].image}
+          src={banner[Index]?.image}
           alt="img"
           className="lg:h-[450px] h-[170px]"
           onClick={() => navigate("/" + banner[Index].location)}

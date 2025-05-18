@@ -106,10 +106,16 @@ export default function ProductDetail() {
             discount={discount}
           />
           {/* <ProductRating rating={rating} reviewCount={review.length} /> */}
-          {stock < 10 && (
+          {stock === 0 ? (
             <p className="text-red-600 font-semibold mb-4">
-              Hurry! Only {stock} left in stock.
+              Item is out of stock
             </p>
+          ) : (
+            stock < 10 && (
+              <p className="text-red-600 font-semibold mb-4">
+                Hurry! Only {stock} left in stock.
+              </p>
+            )
           )}
 
           {showSizes && (

@@ -98,7 +98,7 @@ const AdminPanel = () => {
   if (loading) return <p>Checking auth...</p>
 
   return (
-    <div className="h-full w-full bg-transparent flex flex-col relative border-8 border-green-400 overflow-hidden">
+    <div className="h-full w-full bg-transparent flex flex-col relative  overflow-hidden">
       <Header prop={{ Navbar: showNavbar, setNavbar: setShowNavbar }} />
       <div className="w-full flex-grow flex flex-row">
         <NavbarComponent
