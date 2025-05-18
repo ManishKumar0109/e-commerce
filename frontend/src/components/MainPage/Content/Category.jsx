@@ -2,8 +2,7 @@ import { useNavigate } from "react-router-dom"
 import category from "../../publicutil/clothing_categories.json"
 const Category = () => {
   const navigate = useNavigate()
-  console.log(category)
-  return <div>hello</div>
+
   return (
     <div className="lg:h-[170vh] h-[140vh] flex flex-col lg:px-0 px-2 pb-0">
       <h1 className="font-semibold text-gray-500 text-3xl my-4 ">Categories</h1>
@@ -16,7 +15,7 @@ const Category = () => {
             .filter((el) => el.gender === "female")
             .map((el, index) => (
               <div
-                key={index}
+                key={el.title + index}
                 onClick={() => navigate(`/products/null/${el.category}/female`)}
                 className="relative h-full flex-shrink-0 overflow-hidden rounded-xl"
               >

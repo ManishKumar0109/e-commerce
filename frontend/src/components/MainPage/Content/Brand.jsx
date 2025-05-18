@@ -15,14 +15,14 @@ const Brand = () => {
         const data = await raw.json()
         setBrands(data.result || [])
       } catch (error) {
-        console.error("Error fetching brands:", error)
+        // Handle fetch error if necessary
       }
     }
 
     getData()
   }, [])
 
-  if (brands.length) return null
+  if (brands.length === 0) return null
 
   return (
     <div className="w-full lg:min-h-[60vh] lg:h-[30%] h-[70%] lg:px-0 px-4">
@@ -30,11 +30,11 @@ const Brand = () => {
         Shop By Brands
       </h1>
       <div className="w-full h-[90%] flex gap-8 overflow-x-scroll hide-scrollbar">
-        {brands.map((el, index) => (
+        {brands.map((el) => (
           <img
             src={el.images[0]}
             alt={el.name}
-            key={index}
+            key={el.name}
             className="cursor-pointer"
             onClick={() => navigate(`/products/${el.name}/null/null`)}
           />

@@ -1,31 +1,31 @@
 import { useEffect, useState } from "react"
-import { Navbar1, Navbar2 } from "./Navbar"
-import { Outlet, useNavigate } from "react-router-dom"
-import { onAuthStateChanged } from "firebase/auth"
-import { auth } from "../../firebase"
-import { setUser } from "../../redux/userSlice"
+import { onAuthStateChanged, signOut } from "firebase/auth"
+import { auth } from "../../firebase/firebase.config"
+import { useNavigate, useLocation, Outlet } from "react-router-dom"
 import { useDispatch } from "react-redux"
-
-async function setUserProfile(dispatch) {
-  try {
-    const raw = await fetch(`${import.meta.env.VITE_API_URL}/user/getProfile`, {
-      method: "GET",
-      credentials: "include",
-    })
-    const data = await raw.json()
-    const { firstName, lastName } = data
-    dispatch(setUser(firstName.toUpperCase() + " " + lastName.toUpperCase()))
-  } catch (error) {
-    console.error("Failed to fetch user:", error)
-  }
-}
+import { setUser } from "../../redux/userSlice"
+import Sidebar from "../../components/layout/Sidebar"
+import MobileNav from "../../components/layout/MobileNav"
+import Header from "../../components/layout/Header"
 
 const MainPage = () => {
-  const [ScreenSize, setScreenSize] = useState(window.innerWidth)
-  const [loading, setLoading] = useState(true)
-  const navigate = useNavigate()
   const dispatch = useDispatch()
+  const navigate = useNavigate()
+  const location = useLocation()
 
+  const [loading, setLoading] = useState(true)
+  const [isMobileView, setIsMobileView] = useState(window.innerWidth < 768)
+
+  // Track screen width for responsive layout
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobileView(window.innerWidth < 768)
+    }
+    window.addEventListener("resize", handleResize)
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
+
+  // One-time auth check
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
       if (firebaseUser) {
@@ -43,41 +43,48 @@ const MainPage = () => {
           )
 
           if (res.ok) {
-            await setUserProfile(dispatch)
-            setLoading(false)
+            const profileRes = await fetch(
+              `${import.meta.env.VITE_API_URL}/user/getProfile`,
+              {
+                method: "GET",
+                credentials: "include",
+              }
+            )
+
+            const data = await profileRes.json()
+            const { firstName, lastName } = data
+
+            dispatch(
+              setUser(`${firstName.toUpperCase()} ${lastName.toUpperCase()}`)
+            )
           } else {
-            await auth.signOut()
-            navigate("/auth")
+            await signOut(auth)
+            if (location.pathname !== "/auth") navigate("/auth")
           }
-        } catch (err) {
-          console.error("Error verifying user:", err)
-          await auth.signOut()
-          navigate("/auth")
+        } catch {
+          await signOut(auth)
+          if (location.pathname !== "/auth") navigate("/auth")
+        } finally {
+          setLoading(false)
         }
       } else {
-        navigate("/auth")
+        if (location.pathname !== "/auth") navigate("/auth")
+        setLoading(false)
       }
     })
 
     return () => unsubscribe()
-  }, [navigate])
+  }, [dispatch, navigate, location.pathname])
 
-  useEffect(() => {
-    function handleSize() {
-      setScreenSize(window.innerWidth)
-    }
-    window.addEventListener("resize", handleSize)
-    return () => window.removeEventListener("resize", handleSize)
-  }, [])
-
-  const isMobileView = ScreenSize < 1040
-
-  if (loading) return <p>Checking auth...</p>
+  if (loading) return <p className="text-center mt-10">Checking auth...</p>
 
   return (
-    <div className="h-screen w-screen bg-white relative overflow-hidden z-0">
-      {isMobileView ? <Navbar2 /> : <Navbar1 />}
-      <div className="absolute inset-0 h-screen lg:pt-[4.5%] pt-[44%] z-10 overflow-y-scroll">
+    <div className="flex h-screen">
+      {!isMobileView && <Sidebar />}
+      <div className="flex flex-col flex-1">
+        <Header />
+        {isMobileView && <MobileNav />}
+        {/* This will render nested routes */}
         <Outlet />
       </div>
     </div>
