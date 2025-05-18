@@ -1,0 +1,232 @@
+[
+  {
+    "_id": "3df0baa0-8ecf-454b-80f8-91f390283533",
+    "title": "Cover Ask",
+    "description": "New few remember bar the itself early. Hundred course particular between. Organization several hard blue account include.\nStar reason describe college discover.",
+    "brand": "Apple",
+    "category": "women",
+    "price": 467.34,
+    "discountPrice": 190.21,
+    "stock": 32,
+    "images": [
+      "https://placeimg.com/291/88/any",
+      "https://placeimg.com/117/636/any"
+    ],
+    "tags": [
+      "new",
+      "sale"
+    ],
+    "ratings": {
+      "average": 3.0,
+      "totalReviews": 82
+    },
+    "createdAt": "2025-04-17T13:21:54.741073"
+  },
+  {
+    "_id": "48a78812-65ea-4c4a-b366-5b682f320f7c",
+    "title": "Enjoy Top",
+    "description": "Since month interesting administration main raise alone water. Cut state all feeling near.",
+    "brand": "Sony",
+    "category": "women",
+    "price": 1666.78,
+    "discountPrice": 1070.93,
+    "stock": 48,
+    "images": [
+      "https://placekitten.com/966/562",
+      "https://www.lorempixel.com/405/71"
+    ],
+    "tags": [
+      "new",
+      "trending"
+    ],
+    "ratings": {
+      "average": 4.5,
+      "totalReviews": 179
+    },
+    "createdAt": "2025-04-17T13:21:54.741300"
+  },
+  {
+    "_id": "c71aad72-6add-46ff-b550-dbf27a3f31a6",
+    "title": "Water Appear",
+    "description": "Office economy me best watch foot.\nStrategy color summer of left help concern involve. Watch wait player marriage writer. Society environment treat gas music exist.",
+    "brand": "Apple",
+    "category": "others",
+    "price": 1697.52,
+    "discountPrice": 1696.04,
+    "stock": 33,
+    "images": [
+      "https://placekitten.com/743/589",
+      "https://placekitten.com/460/645"
+    ],
+    "tags": [
+      "trending",
+      "sale"
+    ],
+    "ratings": {
+      "average": 3.1,
+      "totalReviews": 177
+    },
+    "createdAt": "2025-04-17T13:21:54.741527"
+  },
+  {
+    "_id": "6dcf68ed-9f7d-4e27-a1f4-0bcf3e935da5",
+    "title": "Table Eye",
+    "description": "Act buy live authority on. Food thing difference want play. Mention weight scene end baby voice interest task.",
+    "brand": "Sony",
+    "category": "women",
+    "price": 818.0,
+    "discountPrice": 159.55,
+    "stock": 89,
+    "images": [
+      "https://dummyimage.com/293x573",
+      "https://placeimg.com/320/932/any"
+    ],
+    "tags": [
+      "trending",
+      "new"
+    ],
+    "ratings": {
+      "average": 4.8,
+      "totalReviews": 497
+    },
+    "createdAt": "2025-04-17T13:21:54.741713"
+  },
+  {
+    "_id": "e5460bd9-f486-448a-a79f-759974030ee1",
+    "title": "Start Of",
+    "description": "Analysis pressure despite even interview something. Suggest type country value play.\nShake through natural responsibility college. Attention effort person. Exist tough subject right.",
+    "brand": "Dell",
+    "category": "men",
+    "price": 429.37,
+    "discountPrice": 1707.39,
+    "stock": 46,
+    "images": [
+      "https://dummyimage.com/363x320",
+      "https://www.lorempixel.com/521/374"
+    ],
+    "tags": [
+      "trending",
+      "new"
+    ],
+    "ratings": {
+      "average": 4.9,
+      "totalReviews": 174
+    },
+    "createdAt": "2025-04-17T13:21:54.741893"
+  },
+  {
+    "_id": "71bdda5c-0190-4cba-baf5-cff776b278c7",
+    "title": "Operation Defense",
+    "description": "Mind election add increase subject hair tell. Class some sport section safe remember star. Bag condition dog day idea race.",
+    "brand": "HP",
+    "category": "women",
+    "price": 610.6,
+    "discountPrice": 323.18,
+    "stock": 20,
+    "images": [
+      "https://placeimg.com/1003/991/any",
+      "https://placekitten.com/927/743"
+    ],
+    "tags": [
+      "trending",
+      "new"
+    ],
+    "ratings": {
+      "average": 3.2,
+      "totalReviews": 481
+    },
+    "createdAt": "2025-04-17T13:21:54.742083"
+  },
+  {
+    "_id": "cc94a2f8-f62d-41a9-a16d-f108a8168e45",
+    "title": "Wide Take",
+    "description": "Later television answer never heavy wide. Democrat home whose. Stop officer much both behavior stand during.\nRoad station energy we. West various among trade bit. Most health easy force day boy.",
+    "brand": "Samsung",
+    "category": "men",
+    "price": 307.54,
+    "discountPrice": 1252.66,
+    "stock": 60,
+    "images": [
+      "https://placekitten.com/1015/724",
+      "https://placeimg.com/28/239/any"
+    ],
+    "tags": [
+      "trending",
+      "sale"
+    ],
+    "ratings": {
+      "average": 4.7,
+      "totalReviews": 162
+    },
+    "createdAt": "2025-04-17T13:21:54.742255"
+  },
+  {
+    "_id": "74efaab4-defe-41ae-8e57-5f3a51d425df",
+    "title": "Cut Method",
+    "description": "Job mouth two important benefit city friend.\nWrong cover series worry current. Red reveal poor amount forward order investment.",
+    "brand": "Dell",
+    "category": "others",
+    "price": 1594.92,
+    "discountPrice": 1031.77,
+    "stock": 96,
+    "images": [
+      "https://placekitten.com/376/261",
+      "https://www.lorempixel.com/52/306"
+    ],
+    "tags": [
+      "trending",
+      "new"
+    ],
+    "ratings": {
+      "average": 3.3,
+      "totalReviews": 14
+    },
+    "createdAt": "2025-04-17T13:21:54.742418"
+  },
+  {
+    "_id": "c761e77b-9fd6-4f01-8da5-01c30168ada3",
+    "title": "Until Control",
+    "description": "Marriage only card the herself second lawyer. Executive success agreement whole site yourself from. Push increase area study smile interest clear.",
+    "brand": "Sony",
+    "category": "men",
+    "price": 1150.4,
+    "discountPrice": 538.03,
+    "stock": 87,
+    "images": [
+      "https://placekitten.com/453/129",
+      "https://placekitten.com/212/867"
+    ],
+    "tags": [
+      "new",
+      "sale"
+    ],
+    "ratings": {
+      "average": 3.7,
+      "totalReviews": 197
+    },
+    "createdAt": "2025-04-17T13:21:54.742580"
+  },
+  {
+    "_id": "361412ae-07b4-4333-b0a5-d187a436eb1d",
+    "title": "Among Company",
+    "description": "Whole section enter others movement few whom. Before pressure anything month head. Rule shake report.",
+    "brand": "Dell",
+    "category": "others",
+    "price": 1977.44,
+    "discountPrice": 636.21,
+    "stock": 83,
+    "images": [
+      "https://www.lorempixel.com/0/833",
+      "https://placekitten.com/227/329"
+    ],
+    "tags": [
+      "sale",
+      "new"
+    ],
+    "ratings": {
+      "average": 4.5,
+      "totalReviews": 26
+    },
+    "createdAt": "2025-04-17T13:21:54.742736"
+  }
+]

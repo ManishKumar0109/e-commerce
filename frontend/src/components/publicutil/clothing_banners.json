@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "0c103353-41eb-4d7b-a283-ab090f165333",
+    "title": "Summer Collection - Up to 50% Off",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-fashion-collection-twitch-banner_23-2149985384.jpg?ga=GA1.1.1548224228.1743557539&semt=ais_hybrid&w=740",
+    "link": "/products/mens",
+    "category": "mens",
+    "createdAt": "2025-04-18T03:18:38.512832"
+  },
+
+  {
+    "_id": "98b957c4-728c-4136-8f04-d65fb689c3b8",
+    "title": "Skincare Essentials",
+    "image": "https://img.freepik.com/premium-vector/summer-fashion-sale-banner-design-template_2239-1174.jpg?ga=GA1.1.1548224228.1743557539&semt=ais_hybrid&w=740",
+    "link": "/products/skincare",
+    "category": "skincare",
+    "createdAt": "2025-04-18T03:18:38.512990"
+  },
+  {
+    "_id": "7264348f-13ca-45b1-855d-bd4fabebea50",
+    "title": "Stylish Footwear for All",
+    "image": "https://img.freepik.com/free-vector/geometric-fashion-collection-facebook-post_23-2149977428.jpg?ga=GA1.1.1548224228.1743557539&semt=ais_hybrid&w=740",
+    "link": "/products/footwear",
+    "category": "footwear",
+    "createdAt": "2025-04-18T03:18:38.513037"
+  }
+]

@@ -1,0 +1,31 @@
+# Backend ignores
+/backend/node_modules/
+/backend/ecom.json
+/backend/logs/
+/backend/*.log
+/backend/npm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+/backend/pnpm-debug.log*
+/backend/lerna-debug.log*
+/backend/dist/
+/backend/dist-ssr/
+/backend/*.local
+
+# Frontend ignores
+/frontend/node_modules/
+/frontend/.env
+
+# Ignore env files in root if any
+.env
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+

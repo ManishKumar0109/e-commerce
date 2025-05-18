@@ -1,0 +1,482 @@
+[
+  {
+    "_id": "1bf91b47-bdb2-41ca-8170-0b008c993d7b",
+    "title": "Image Skincare",
+    "description": "True former sport concern more give morning. His easy job American American ago year. Practice piece agreement thought want serve avoid.",
+    "brand": "Uniqlo",
+    "mainCategory": "skincare",
+    "subCategory": null,
+    "price": 1503.99,
+    "discountPrice": 1481.03,
+    "stock": 73,
+    "images": [
+      "https://placekitten.com/148/85",
+      "https://placeimg.com/641/935/any"
+    ],
+    "tags": [
+      "summer",
+      "winter"
+    ],
+    "ratings": {
+      "average": 4.0,
+      "totalReviews": 493
+    },
+    "createdAt": "2025-04-17T13:26:36.580359"
+  },
+  {
+    "_id": "529da13f-42a5-4778-8786-9a73687c54a7",
+    "title": "Read Bottom",
+    "description": "Growth bill ask. Tell music agent support.\nFamily experience five board. Trade include common meet article level.",
+    "brand": "H&M",
+    "mainCategory": "womens",
+    "subCategory": "bottom",
+    "price": 550.34,
+    "discountPrice": 2170.51,
+    "stock": 59,
+    "images": [
+      "https://dummyimage.com/947x231",
+      "https://dummyimage.com/845x298"
+    ],
+    "tags": [
+      "new",
+      "summer"
+    ],
+    "ratings": {
+      "average": 4.0,
+      "totalReviews": 114
+    },
+    "createdAt": "2025-04-17T13:26:36.580692"
+  },
+  {
+    "_id": "d5af8f3b-9f67-4ae8-b8e5-147963948fee",
+    "title": "Like Skincare",
+    "description": "Artist on west loss especially research beautiful suddenly. Article different keep world sit run.",
+    "brand": "H&M",
+    "mainCategory": "skincare",
+    "subCategory": null,
+    "price": 1128.35,
+    "discountPrice": 1259.59,
+    "stock": 18,
+    "images": [
+      "https://dummyimage.com/176x495",
+      "https://placeimg.com/748/601/any"
+    ],
+    "tags": [
+      "new",
+      "bestseller"
+    ],
+    "ratings": {
+      "average": 3.3,
+      "totalReviews": 261
+    },
+    "createdAt": "2025-04-17T13:26:36.581015"
+  },
+  {
+    "_id": "42856e51-35b8-4cb2-8594-d2cffb0232ba",
+    "title": "Single Upper",
+    "description": "Read answer white evening author. Late enjoy better off be young market site.\nEat Republican summer news where. Natural student team.",
+    "brand": "Uniqlo",
+    "mainCategory": "womens",
+    "subCategory": "upper",
+    "price": 2405.77,
+    "discountPrice": 863.49,
+    "stock": 6,
+    "images": [
+      "https://placekitten.com/524/6",
+      "https://placekitten.com/830/673"
+    ],
+    "tags": [
+      "trending",
+      "winter"
+    ],
+    "ratings": {
+      "average": 4.0,
+      "totalReviews": 179
+    },
+    "createdAt": "2025-04-17T13:26:36.581573"
+  },
+  {
+    "_id": "0afc3ea4-6130-4376-9a01-de00ec5613c6",
+    "title": "Specific Footwear",
+    "description": "Scientist behind medical return sometimes present. Story near many forward decide reduce state. Lead field degree family series build upon indicate.",
+    "brand": "Adidas",
+    "mainCategory": "footwear",
+    "subCategory": null,
+    "price": 1766.0,
+    "discountPrice": 410.79,
+    "stock": 57,
+    "images": [
+      "https://placeimg.com/449/360/any",
+      "https://www.lorempixel.com/577/665"
+    ],
+    "tags": [
+      "winter",
+      "summer"
+    ],
+    "ratings": {
+      "average": 4.5,
+      "totalReviews": 170
+    },
+    "createdAt": "2025-04-17T13:26:36.582198"
+  },
+  {
+    "_id": "eada41cd-b5c1-44c1-a3e4-98acd2734c23",
+    "title": "Them Upper",
+    "description": "Few wrong money standard minute your. Citizen father return member including loss. You house region check hour stage different international.",
+    "brand": "H&M",
+    "mainCategory": "womens",
+    "subCategory": "upper",
+    "price": 2812.2,
+    "discountPrice": 1271.85,
+    "stock": 12,
+    "images": [
+      "https://placeimg.com/267/667/any",
+      "https://dummyimage.com/969x924"
+    ],
+    "tags": [
+      "winter",
+      "summer"
+    ],
+    "ratings": {
+      "average": 4.2,
+      "totalReviews": 133
+    },
+    "createdAt": "2025-04-17T13:26:36.582376"
+  },
+  {
+    "_id": "5cbd68de-69e9-4840-a59a-280cfe5b3cb0",
+    "title": "Build Footwear",
+    "description": "Activity nor so section medical. Serve how short north director. Fear heavy condition any.\nEverything artist partner everything establish develop trial. Father reflect begin son.",
+    "brand": "Uniqlo",
+    "mainCategory": "footwear",
+    "subCategory": null,
+    "price": 1131.11,
+    "discountPrice": 1620.98,
+    "stock": 43,
+    "images": [
+      "https://dummyimage.com/771x9",
+      "https://dummyimage.com/969x97"
+    ],
+    "tags": [
+      "bestseller",
+      "trending"
+    ],
+    "ratings": {
+      "average": 4.9,
+      "totalReviews": 359
+    },
+    "createdAt": "2025-04-17T13:26:36.582594"
+  },
+  {
+    "_id": "75d903b8-c25f-4698-9a8e-457bccdabaf6",
+    "title": "Community Skincare",
+    "description": "Almost four free behind continue quality. Music life husband challenge note military. Or Democrat the us civil.",
+    "brand": "H&M",
+    "mainCategory": "skincare",
+    "subCategory": null,
+    "price": 1538.35,
+    "discountPrice": 1530.15,
+    "stock": 26,
+    "images": [
+      "https://www.lorempixel.com/252/685",
+      "https://placekitten.com/315/195"
+    ],
+    "tags": [
+      "winter",
+      "trending"
+    ],
+    "ratings": {
+      "average": 3.1,
+      "totalReviews": 293
+    },
+    "createdAt": "2025-04-17T13:26:36.582841"
+  },
+  {
+    "_id": "99df2c3d-11c1-486e-b6f2-3391574af947",
+    "title": "Half Upper",
+    "description": "Over statement fill try may. Often impact technology state including quickly.\nMeasure fear page over. Miss note let also. Cost career democratic.",
+    "brand": "Zara",
+    "mainCategory": "womens",
+    "subCategory": "upper",
+    "price": 2732.17,
+    "discountPrice": 2344.09,
+    "stock": 16,
+    "images": [
+      "https://www.lorempixel.com/730/367",
+      "https://dummyimage.com/263x868"
+    ],
+    "tags": [
+      "summer",
+      "winter"
+    ],
+    "ratings": {
+      "average": 3.7,
+      "totalReviews": 481
+    },
+    "createdAt": "2025-04-17T13:26:36.583017"
+  },
+  {
+    "_id": "f09c2ba4-ab3d-4cb6-b74f-e9deed6d3103",
+    "title": "Relate Footwear",
+    "description": "Develop stay difficult successful. Charge cut make vote this ahead. Include idea late method Republican bag treatment.",
+    "brand": "H&M",
+    "mainCategory": "footwear",
+    "subCategory": null,
+    "price": 2802.35,
+    "discountPrice": 786.55,
+    "stock": 16,
+    "images": [
+      "https://www.lorempixel.com/411/23",
+      "https://placeimg.com/800/659/any"
+    ],
+    "tags": [
+      "trending",
+      "winter"
+    ],
+    "ratings": {
+      "average": 4.9,
+      "totalReviews": 31
+    },
+    "createdAt": "2025-04-17T13:26:36.583201"
+  },
+  {
+    "_id": "324cbd1a-db5b-4b51-9561-be33dc722aaa",
+    "title": "Subject Footwear",
+    "description": "Reality service citizen build sense. Improve middle him throughout enjoy name.\nService already tell. Remember really suggest such too bar day lawyer.",
+    "brand": "Nike",
+    "mainCategory": "footwear",
+    "subCategory": null,
+    "price": 977.19,
+    "discountPrice": 335.51,
+    "stock": 51,
+    "images": [
+      "https://www.lorempixel.com/794/216",
+      "https://placeimg.com/830/438/any"
+    ],
+    "tags": [
+      "bestseller",
+      "winter"
+    ],
+    "ratings": {
+      "average": 3.3,
+      "totalReviews": 472
+    },
+    "createdAt": "2025-04-17T13:26:36.583403"
+  },
+  {
+    "_id": "4f8f0a27-4cbe-4471-a8b8-aaaaa8ac33ce",
+    "title": "Hold Innerwear",
+    "description": "Suggest why here then. Strong huge adult.\nLive today no. Economy religious far bed every.\nWhite special news up forget whatever get.",
+    "brand": "Nike",
+    "mainCategory": "womens",
+    "subCategory": "innerwear",
+    "price": 941.18,
+    "discountPrice": 951.25,
+    "stock": 67,
+    "images": [
+      "https://placeimg.com/806/994/any",
+      "https://dummyimage.com/512x123"
+    ],
+    "tags": [
+      "new",
+      "summer"
+    ],
+    "ratings": {
+      "average": 4.8,
+      "totalReviews": 210
+    },
+    "createdAt": "2025-04-17T13:26:36.583596"
+  },
+  {
+    "_id": "e5eaeaf0-6015-43b0-9452-419b53fd20d8",
+    "title": "Admit Upper",
+    "description": "Discover boy close something within. Contain process week center especially.\nPay defense possible economy increase. Another reveal he about never customer.",
+    "brand": "Zara",
+    "mainCategory": "mens",
+    "subCategory": "upper",
+    "price": 2386.43,
+    "discountPrice": 1320.68,
+    "stock": 43,
+    "images": [
+      "https://www.lorempixel.com/506/586",
+      "https://placeimg.com/300/279/any"
+    ],
+    "tags": [
+      "new",
+      "trending"
+    ],
+    "ratings": {
+      "average": 4.0,
+      "totalReviews": 251
+    },
+    "createdAt": "2025-04-17T13:26:36.583948"
+  },
+  {
+    "_id": "9858ded2-739f-4c66-b7a5-dae5c58c40fc",
+    "title": "Expect Footwear",
+    "description": "Vote strategy authority score officer important particular. Reality meet education dark entire daughter. Scientist change task part despite.",
+    "brand": "H&M",
+    "mainCategory": "footwear",
+    "subCategory": null,
+    "price": 2847.92,
+    "discountPrice": 2085.74,
+    "stock": 11,
+    "images": [
+      "https://placeimg.com/340/610/any",
+      "https://www.lorempixel.com/973/583"
+    ],
+    "tags": [
+      "bestseller",
+      "new"
+    ],
+    "ratings": {
+      "average": 4.0,
+      "totalReviews": 31
+    },
+    "createdAt": "2025-04-17T13:26:36.584106"
+  },
+  {
+    "_id": "5b599c1c-0584-4400-927e-ecb0ff13a356",
+    "title": "Fall Innerwear",
+    "description": "Move blue job or lot. State game individual because. Network no light body whose.\nSpeech art way per. Truth right top market occur main yeah. Trade be speak west eight last look.",
+    "brand": "Zara",
+    "mainCategory": "mens",
+    "subCategory": "innerwear",
+    "price": 608.84,
+    "discountPrice": 1818.06,
+    "stock": 15,
+    "images": [
+      "https://placeimg.com/766/446/any",
+      "https://placekitten.com/266/115"
+    ],
+    "tags": [
+      "new",
+      "trending"
+    ],
+    "ratings": {
+      "average": 4.3,
+      "totalReviews": 493
+    },
+    "createdAt": "2025-04-17T13:26:36.584321"
+  },
+  {
+    "_id": "b4f3f374-7e75-420b-b88c-ff6632e139f4",
+    "title": "Expect Skincare",
+    "description": "Can task mouth ball. Business likely car also car. Where relationship because make.\nIndeed affect model. Building something focus computer. Argue particular fish mother discuss.",
+    "brand": "H&M",
+    "mainCategory": "skincare",
+    "subCategory": null,
+    "price": 1546.31,
+    "discountPrice": 843.02,
+    "stock": 12,
+    "images": [
+      "https://dummyimage.com/604x301",
+      "https://placeimg.com/474/444/any"
+    ],
+    "tags": [
+      "winter",
+      "trending"
+    ],
+    "ratings": {
+      "average": 4.9,
+      "totalReviews": 414
+    },
+    "createdAt": "2025-04-17T13:26:36.584502"
+  },
+  {
+    "_id": "55d2b648-ca3f-4a6e-9817-45ab5abf92fd",
+    "title": "Cause Footwear",
+    "description": "Series doctor step she over own. Stuff ever person responsibility interest so now. Ahead own space enough action health alone consumer. Trial represent activity.",
+    "brand": "H&M",
+    "mainCategory": "footwear",
+    "subCategory": null,
+    "price": 2570.61,
+    "discountPrice": 1201.49,
+    "stock": 85,
+    "images": [
+      "https://www.lorempixel.com/248/300",
+      "https://dummyimage.com/869x533"
+    ],
+    "tags": [
+      "winter",
+      "new"
+    ],
+    "ratings": {
+      "average": 4.7,
+      "totalReviews": 104
+    },
+    "createdAt": "2025-04-17T13:26:36.584669"
+  },
+  {
+    "_id": "c5d54538-6928-4ab7-a6b1-05a4fc9eec4b",
+    "title": "Long Skincare",
+    "description": "Artist million skin candidate pressure evidence home hundred. Develop story mother if tough address among. Follow threat water support include foreign or growth.",
+    "brand": "Adidas",
+    "mainCategory": "skincare",
+    "subCategory": null,
+    "price": 2966.97,
+    "discountPrice": 1494.82,
+    "stock": 85,
+    "images": [
+      "https://www.lorempixel.com/904/430",
+      "https://placeimg.com/430/457/any"
+    ],
+    "tags": [
+      "winter",
+      "summer"
+    ],
+    "ratings": {
+      "average": 3.2,
+      "totalReviews": 241
+    },
+    "createdAt": "2025-04-17T13:26:36.584815"
+  },
+  {
+    "_id": "19d94346-2951-47cc-b67d-67a1c4847ff7",
+    "title": "Would Footwear",
+    "description": "Require Mrs capital his participant level. Almost loss Mrs similar service.\nNo you like ok. Help month travel real. Her among TV opportunity. Central help card series our senior.",
+    "brand": "Puma",
+    "mainCategory": "footwear",
+    "subCategory": null,
+    "price": 444.98,
+    "discountPrice": 694.04,
+    "stock": 67,
+    "images": [
+      "https://placeimg.com/489/366/any",
+      "https://www.lorempixel.com/602/283"
+    ],
+    "tags": [
+      "summer",
+      "trending"
+    ],
+    "ratings": {
+      "average": 3.8,
+      "totalReviews": 479
+    },
+    "createdAt": "2025-04-17T13:26:36.585025"
+  },
+  {
+    "_id": "b60ed741-ebbf-4fc5-859e-9486f97356ff",
+    "title": "Decade Skincare",
+    "description": "Feeling notice common simple figure gun. Moment instead she including perform black place.\nTotal economy law. Table order indicate important when. Southern alone blood task.",
+    "brand": "Zara",
+    "mainCategory": "skincare",
+    "subCategory": null,
+    "price": 294.12,
+    "discountPrice": 981.7,
+    "stock": 60,
+    "images": [
+      "https://placekitten.com/445/981",
+      "https://placekitten.com/53/204"
+    ],
+    "tags": [
+      "new",
+      "trending"
+    ],
+    "ratings": {
+      "average": 4.8,
+      "totalReviews": 104
+    },
+    "createdAt": "2025-04-17T13:26:36.585180"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "1",
+    "name": "Libaas",
+    "logo": "https://images-static.nykaa.com/uploads/ba52c644-a400-4b23-aa8a-e3346579c5df.jpg?tr=w-300,cm-pad_resize",
+    "description": "Elegant ethnic wear for modern women."
+  },
+  {
+    "_id": "2",
+    "name": "U.S. Polo Assn.",
+    "logo": "https://images-static.nykaa.com/uploads/4f9329c5-9e3c-4005-9f03-46d63be99bb2.jpg?tr=w-300,cm-pad_resize",
+    "description": "Authentic American style and premium quality."
+  },
+  {
+    "_id": "3",
+    "name": "Puma",
+    "logo": "https://images-static.nykaa.com/uploads/8ebbdab0-ffe3-4a43-9ec6-eecffe84a462.jpg?tr=w-300,cm-pad_resize",
+    "description": "Sporty fashion with high-performance wear."
+  },
+  {
+    "_id": "4",
+    "name": "Levi's",
+    "logo": "https://images-static.nykaa.com/uploads/39a46ab2-8b0b-48dd-8b6c-9c565cff39f7.jpg?tr=w-300,cm-pad_resize",
+    "description": "Timeless denim and casual essentials."
+  },
+  {
+    "_id": "5",
+    "name": "Adidas",
+    "logo": "https://images-static.nykaa.com/uploads/d1f80006-8171-4f61-baff-cdf6d8ccefcb.jpg?tr=w-300,cm-pad_resize",
+    "description": "Performance wear fused with urban fashion."
+  },
+  {
+    "_id": "6",
+    "name": "FableStreet",
+    "logo": "https://images-static.nykaa.com/uploads/ba1d129b-4357-4e4d-b592-3e5af62464c3.jpg?tr=w-300,cm-pad_resize",
+    "description": "Modern workwear for powerful women."
+  },
+  {
+    "_id": "7",
+    "name": "Marks & Spencer",
+    "logo": "https://images-static.nykaa.com/uploads/e56fea2f-b475-4d63-b57a-47e73ec02460.jpg?tr=w-300,cm-pad_resize",
+    "description": "Premium British fashion and innerwear."
+  }
+]

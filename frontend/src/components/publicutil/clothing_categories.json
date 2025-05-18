@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "title": "Trendy Men's Fashion",
+    "image": "https://img.freepik.com/free-photo/fashionable-man-front-blue-wall_23-2148184895.jpg?ga=GA1.1.1548224228.1743557539&semt=ais_hybrid&w=740",
+    "gender": "male",
+    "category": "accessories"
+  },
+  {
+    "id": "2",
+    "title": "Chic Women's Fashion",
+    "image": "https://img.freepik.com/free-photo/young-woman-sunglasses-hat-black-leather-jacket-posing-outdoor_231208-13405.jpg?ga=GA1.1.1548224228.1743557539&semt=ais_hybrid&w=740",
+    "gender": "female",
+    "category": "accessories"
+  },
+  {
+    "id": "3",
+    "title": "Stylish Footwear Collection",
+    "image": "https://img.freepik.com/premium-photo/stylish-model-girls-fashionable-clothes-with-vintage-leather-jackets-black-jeans-with-shoes-posing-parking-city_338491-10950.jpg?ga=GA1.1.1548224228.1743557539&semt=ais_hybrid&w=740",
+    "gender": "female",
+    "category": "footwear"
+  },
+  {
+    "id": "4",
+    "title": "Elegant Women's Innerwear",
+    "image": "https://img.freepik.com/premium-photo/young-woman-posing-wearing-summer-clothes_133748-3016.jpg?ga=GA1.1.1548224228.1743557539&semt=ais_hybrid&w=740",
+    "gender": "female",
+    "category": "innerwear"
+  },
+  {
+    "id": "5",
+    "title": "Comfortable Men's Innerwear",
+    "image": "https://img.freepik.com/premium-photo/portrait-sporty-handsome-strong-man-healthy-smiling-athletic-fitness-model-posing-near-gray-wall_1237459-177.jpg?ga=GA1.1.1548224228.1743557539&semt=ais_hybrid&w=740",
+    "gender": "male",
+    "category": "innerwear"
+  },
+  {
+    "id": "6",
+    "title": "Men's Upperwear Collection",
+    "image": "https://img.freepik.com/premium-photo/stylish-bomber-jacket-man-casual-fashion-wear-perfect-fashion-advertisements_221812-3622.jpg?ga=GA1.1.1548224228.1743557539&semt=ais_hybrid&w=740",
+    "gender": "male",
+    "category": "upper"
+  },
+  {
+    "id": "7",
+    "title": "Men's Bottomwear Picks",
+    "image": "https://img.freepik.com/premium-photo/man-stands-with-his-hands-his-trouser-pockets-pier-near-bollard-cropped-faceless_278455-37769.jpg?ga=GA1.1.1548224228.1743557539&semt=ais_hybrid&w=740",
+    "gender": "male",
+    "category": "bottom"
+  },
+  {
+    "id": "8",
+    "title": "Trendy Women's Tops",
+    "image": "https://img.freepik.com/free-photo/woman-posing_1303-3740.jpg?ga=GA1.1.1548224228.1743557539&semt=ais_hybrid&w=740",
+    "gender": "female",
+    "category": "upper"
+  },
+  {
+    "id": "9",
+    "title": "Chic Women's Bottoms",
+    "image": "https://img.freepik.com/free-photo/woman-with-long-skirt-touching-her-hair_1187-1709.jpg?ga=GA1.1.1548224228.1743557539&semt=ais_hybrid&w=740",
+    "gender": "female",
+    "category": "bottom"
+  }
+]

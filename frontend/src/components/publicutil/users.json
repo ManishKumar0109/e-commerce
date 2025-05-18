@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "36bbd7e9-b2bf-4b10-a5ef-bf612d13c0fe",
+    "name": "Elizabeth Yates",
+    "email": "victoriaallen@wright.net",
+    "password": "B*X+7yDxT$",
+    "address": "4671 John Dale\nLake Laurenbury, AR 02632",
+    "cart": [],
+    "wishlist": [],
+    "isAdmin": true
+  },
+  {
+    "_id": "c5656e6e-b26e-49dc-903f-e89417da3dc1",
+    "name": "Vanessa Austin",
+    "email": "phillip33@hotmail.com",
+    "password": "*WFEoQR6v9",
+    "address": "4359 Palmer Points Apt. 484\nFordtown, WV 72159",
+    "cart": [],
+    "wishlist": [],
+    "isAdmin": false
+  },
+  {
+    "_id": "6c4f9a84-7a9b-4d4f-a3f2-09afad84b34f",
+    "name": "Troy Johnson",
+    "email": "cynthiagonzales@stevens.com",
+    "password": "7NMHLmoc^4",
+    "address": "345 Herrera Tunnel\nLisamouth, MT 39668",
+    "cart": [],
+    "wishlist": [],
+    "isAdmin": false
+  },
+  {
+    "_id": "2d4aca1c-cdc3-401b-9310-b2931a029320",
+    "name": "Joshua Tran",
+    "email": "margaretclark@gmail.com",
+    "password": "dyAzVHp*(5",
+    "address": "67586 Smith Lodge\nRodriguezmouth, OH 13701",
+    "cart": [],
+    "wishlist": [],
+    "isAdmin": false
+  },
+  {
+    "_id": "9a9075e5-3c6d-4ee5-883f-574c64ec0ae9",
+    "name": "Lindsay Reyes",
+    "email": "reyescassandra@dawson.com",
+    "password": "+8b8BO&aOh",
+    "address": "510 Olivia Bridge Apt. 801\nPort Jacob, OH 32370",
+    "cart": [],
+    "wishlist": [],
+    "isAdmin": false
+  }
+]
