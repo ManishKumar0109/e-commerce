@@ -13,7 +13,7 @@ const cookieParser = require("cookie-parser")
 app.use(express.json())
 app.use(cookieParser())
 const corsconfig = {
-  origin: "https://style-sprint.onrender.com",
+  origin: "https://e-commerce-swart-alpha.vercel.app",
   credentials: true,
 }
 
