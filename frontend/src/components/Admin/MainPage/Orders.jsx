@@ -124,7 +124,7 @@ const Orders = () => {
                   {order.product.map((p, i) => (
                     <li key={i}>
                       <a
-                        href={`/product/${p.productId._id}`}
+                        href={`/productdetail/${p.productId._id}`}
                         className="text-yellow-400 hover:text-yellow-300 underline"
                         target="_blank"
                         rel="noopener noreferrer"

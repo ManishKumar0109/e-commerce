@@ -38,9 +38,9 @@ async function getReviews(setReviews, productId) {
         credentials: "include",
       }
     )
-    const data = await raw.json()(data)
+    const data = await raw.json()
     if (data?.result) {
-      setReviews(data.result)(data.result)
+      setReviews(data.result)
     }
   } catch (error) {
     console.error("Error fetching reviews:", error)
